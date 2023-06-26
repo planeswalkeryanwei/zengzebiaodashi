@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -14,7 +15,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-image: url(../src/img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +27,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#pixiv{
+  background-color:transparent;
+}
 .App-link {
   color: #61dafb;
 }
